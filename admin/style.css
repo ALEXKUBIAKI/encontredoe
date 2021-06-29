@@ -1,0 +1,33 @@
+body{
+     font-family: Verdana;";
+}
+
+
+        tr:hover{
+            background:#C0C0C0;
+        }
+        .tabela {
+    border-collapse: collapse;
+    width: 98%;
+    height: 60px;
+    margin:auto;
+}
+        .tabela th{
+    background-color: #333;
+    text-align: center;
+    color:#FFFAFA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+            .botoes{
+                            border: 1px solid black;
+            border-radius: 4px;
+            display: inline-block;
+            cursor: pointer;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 6px 10px;
+            text-decoration: none;
+            color: black;
+            background-color: rgb(239, 239, 239);
+            }

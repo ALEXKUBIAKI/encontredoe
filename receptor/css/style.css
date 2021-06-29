@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    text-align: center;
+    margin: 5%;
+}
+
+button[type="submit"]{
+    border:1px solid black;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+}
+
+.form input{
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 2%;
+    height: 30px;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-item{
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.user-item{
+    float: right;
+}
+
+.user-item a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.search_form{
+    
+    text-align: center;
+    width:100%;
+    margin-bottom: 5%;
+}
+
+.search_form input{
+    border:1px solid;
+    border-radius: 10px;
+    border-color:black;
+    width: 40%;
+    height: 30px;     
+}
+.search_form select{
+    margin-top:10px;
+    border:1px solid;
+    border-radius: 10px;
+    border-color:black;
+    width: 20%;
+    height: 30px;    
+}
+
+.form select{
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 2%;
+    height: 30px; 
+}
+
+.item{
+    width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    border: 1px solid black;
+}
+
+
+.tabela {
+    border-collapse: collapse;
+    width: 80%;
+    height: 60px;
+    margin:auto;
+}
+
+.tabela th{
+    background-color: #333;
+    color:#FFFAFA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+
+.sobre{
+    margin-left:30%;
+    margin-right:30%;
+    text-align: justify;
+    background-color:  	#D3D3D3;
+    border-radius: 5px;
+    padding: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.sobre div{
+    text-align: center;
+}
+
